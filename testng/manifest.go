@@ -8,6 +8,7 @@ import (
 )
 
 const defaultGroupName = "UT"
+const DateFormat = "2006-01-02T15:04:05Z"
 
 type Report struct {
 	XMLName        xml.Name `xml:"testng-results"`
@@ -40,7 +41,7 @@ type Suite struct {
 	DurationMills int     `xml:"duration-ms,attr"`
 	StartedAt     string  `xml:"started-at,attr"`
 	FinishedAt    string  `xml:"finished-at,attr"`
-	Groups        []Group `xml:"groups"`
+	Groups        []Group `xml:"groups>group"`
 	Test          Test    `xml:"test"`
 }
 

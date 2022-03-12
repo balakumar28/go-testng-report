@@ -45,19 +45,19 @@ func ToTestNGReport(goReport []json.Report, groups *properties.Properties) testn
 
 	for i, r := range goReport {
 		if i == 0 {
-			report.Suite.StartedAt = r.Time.Format(time.RFC3339Nano)
+			report.Suite.StartedAt = r.Time.Format(testng.DateFormat)
 			report.Suite.Name = "golang suite"
 			report.Suite.Test.StartedAt = report.Suite.StartedAt
 			report.Suite.Test.Name = "golang test"
 		}
 		if i == len(goReport) - 1 {
-			started, err := time.Parse(time.RFC3339Nano, report.Suite.StartedAt)
+			started, err := time.Parse(testng.DateFormat, report.Suite.StartedAt)
 			if err != nil {
 				fmt.Println("failed to parse started time", err)
 				continue
 			}
 			finished := r.Time.Add(time.Duration(int(r.Elapsed * 1000)))
-			report.Suite.FinishedAt = finished.Format(time.RFC3339Nano)
+			report.Suite.FinishedAt = finished.Format(testng.DateFormat)
 			report.Suite.DurationMills = int(finished.Sub(started) / time.Millisecond)
 			report.Suite.Test.FinishedAt = report.Suite.FinishedAt
 			report.Suite.Test.DurationMills = report.Suite.DurationMills
@@ -69,8 +69,8 @@ func ToTestNGReport(goReport []json.Report, groups *properties.Properties) testn
 			testMethod.Name = r.Test
 			testMethod.Signature = r.Package.String() + "." + r.Test
 			testMethod.DurationMills = int(r.Elapsed * 1000)
-			testMethod.StartedAt = r.Time.Format(time.RFC3339Nano)
-			testMethod.FinishedAt = r.Time.Add(time.Duration(testMethod.DurationMills)).Format(time.RFC3339Nano)
+			testMethod.StartedAt = r.Time.Format(testng.DateFormat)
+			testMethod.FinishedAt = r.Time.Add(time.Duration(testMethod.DurationMills)).Format(testng.DateFormat)
 			report.CountTest(r.Action)
 			report.Suite.AddGroups(groups, testMethod)
 			report.Suite.AddTest(testMethod)
