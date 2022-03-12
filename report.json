@@ -1,0 +1,31 @@
+{"Time":"2022-03-12T10:42:34.5357585+05:30","Action":"output","Package":"github.com/balakumar28/go-testng-report","Output":"?   \tgithub.com/balakumar28/go-testng-report\t[no test files]\n"}
+{"Time":"2022-03-12T10:42:34.5392163+05:30","Action":"skip","Package":"github.com/balakumar28/go-testng-report","Elapsed":0.003}
+{"Time":"2022-03-12T10:42:34.5392163+05:30","Action":"output","Package":"github.com/balakumar28/go-testng-report/json","Output":"?   \tgithub.com/balakumar28/go-testng-report/json\t[no test files]\n"}
+{"Time":"2022-03-12T10:42:34.5396514+05:30","Action":"skip","Package":"github.com/balakumar28/go-testng-report/json","Elapsed":0}
+{"Time":"2022-03-12T10:42:35.0061934+05:30","Action":"run","Package":"github.com/balakumar28/go-testng-report/properties","Test":"TestLoadProperties_MissingFile"}
+{"Time":"2022-03-12T10:42:35.0061934+05:30","Action":"output","Package":"github.com/balakumar28/go-testng-report/properties","Test":"TestLoadProperties_MissingFile","Output":"=== RUN   TestLoadProperties_MissingFile\n"}
+{"Time":"2022-03-12T10:42:35.0073886+05:30","Action":"output","Package":"github.com/balakumar28/go-testng-report/properties","Test":"TestLoadProperties_MissingFile","Output":"--- PASS: TestLoadProperties_MissingFile (0.00s)\n"}
+{"Time":"2022-03-12T10:42:35.0073886+05:30","Action":"pass","Package":"github.com/balakumar28/go-testng-report/properties","Test":"TestLoadProperties_MissingFile","Elapsed":0}
+{"Time":"2022-03-12T10:42:35.0073886+05:30","Action":"run","Package":"github.com/balakumar28/go-testng-report/properties","Test":"TestLoadProperties_CorruptedPropFile"}
+{"Time":"2022-03-12T10:42:35.0073886+05:30","Action":"output","Package":"github.com/balakumar28/go-testng-report/properties","Test":"TestLoadProperties_CorruptedPropFile","Output":"=== RUN   TestLoadProperties_CorruptedPropFile\n"}
+{"Time":"2022-03-12T10:42:35.0083993+05:30","Action":"output","Package":"github.com/balakumar28/go-testng-report/properties","Test":"TestLoadProperties_CorruptedPropFile","Output":"--- PASS: TestLoadProperties_CorruptedPropFile (0.00s)\n"}
+{"Time":"2022-03-12T10:42:35.0083993+05:30","Action":"pass","Package":"github.com/balakumar28/go-testng-report/properties","Test":"TestLoadProperties_CorruptedPropFile","Elapsed":0}
+{"Time":"2022-03-12T10:42:35.0083993+05:30","Action":"run","Package":"github.com/balakumar28/go-testng-report/properties","Test":"TestLoadProperties_ValidFile"}
+{"Time":"2022-03-12T10:42:35.0083993+05:30","Action":"output","Package":"github.com/balakumar28/go-testng-report/properties","Test":"TestLoadProperties_ValidFile","Output":"=== RUN   TestLoadProperties_ValidFile\n"}
+{"Time":"2022-03-12T10:42:35.0089235+05:30","Action":"output","Package":"github.com/balakumar28/go-testng-report/properties","Test":"TestLoadProperties_ValidFile","Output":"--- PASS: TestLoadProperties_ValidFile (0.00s)\n"}
+{"Time":"2022-03-12T10:42:35.0089235+05:30","Action":"pass","Package":"github.com/balakumar28/go-testng-report/properties","Test":"TestLoadProperties_ValidFile","Elapsed":0}
+{"Time":"2022-03-12T10:42:35.0089235+05:30","Action":"run","Package":"github.com/balakumar28/go-testng-report/properties","Test":"TestLoadProperties_ValidFile_WithReference"}
+{"Time":"2022-03-12T10:42:35.0089235+05:30","Action":"output","Package":"github.com/balakumar28/go-testng-report/properties","Test":"TestLoadProperties_ValidFile_WithReference","Output":"=== RUN   TestLoadProperties_ValidFile_WithReference\n"}
+{"Time":"2022-03-12T10:42:35.0094481+05:30","Action":"output","Package":"github.com/balakumar28/go-testng-report/properties","Test":"TestLoadProperties_ValidFile_WithReference","Output":"--- PASS: TestLoadProperties_ValidFile_WithReference (0.00s)\n"}
+{"Time":"2022-03-12T10:42:35.0094481+05:30","Action":"pass","Package":"github.com/balakumar28/go-testng-report/properties","Test":"TestLoadProperties_ValidFile_WithReference","Elapsed":0}
+{"Time":"2022-03-12T10:42:35.0094481+05:30","Action":"run","Package":"github.com/balakumar28/go-testng-report/properties","Test":"Test_updateProperty"}
+{"Time":"2022-03-12T10:42:35.0094481+05:30","Action":"output","Package":"github.com/balakumar28/go-testng-report/properties","Test":"Test_updateProperty","Output":"=== RUN   Test_updateProperty\n"}
+{"Time":"2022-03-12T10:42:35.0099644+05:30","Action":"output","Package":"github.com/balakumar28/go-testng-report/properties","Test":"Test_updateProperty","Output":"--- PASS: Test_updateProperty (0.00s)\n"}
+{"Time":"2022-03-12T10:42:35.0099771+05:30","Action":"pass","Package":"github.com/balakumar28/go-testng-report/properties","Test":"Test_updateProperty","Elapsed":0}
+{"Time":"2022-03-12T10:42:35.0099771+05:30","Action":"output","Package":"github.com/balakumar28/go-testng-report/properties","Output":"PASS\n"}
+{"Time":"2022-03-12T10:42:35.0342161+05:30","Action":"output","Package":"github.com/balakumar28/go-testng-report/properties","Output":"ok  \tgithub.com/balakumar28/go-testng-report/properties\t0.353s\n"}
+{"Time":"2022-03-12T10:42:35.0623323+05:30","Action":"pass","Package":"github.com/balakumar28/go-testng-report/properties","Elapsed":0.382}
+{"Time":"2022-03-12T10:42:35.0706231+05:30","Action":"output","Package":"github.com/balakumar28/go-testng-report/testng","Output":"?   \tgithub.com/balakumar28/go-testng-report/testng\t[no test files]\n"}
+{"Time":"2022-03-12T10:42:35.0706231+05:30","Action":"skip","Package":"github.com/balakumar28/go-testng-report/testng","Elapsed":0}
+{"Time":"2022-03-12T10:42:35.0706231+05:30","Action":"output","Package":"github.com/balakumar28/go-testng-report/utils","Output":"?   \tgithub.com/balakumar28/go-testng-report/utils\t[no test files]\n"}
+{"Time":"2022-03-12T10:42:35.0706231+05:30","Action":"skip","Package":"github.com/balakumar28/go-testng-report/utils","Elapsed":0}

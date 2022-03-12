@@ -1,0 +1,33 @@
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+	<reporter-output></reporter-output>
+	<suite name="golang suite" duration-ms="-19798929" started-at="2022-03-12T10:42:34Z" finished-at="2022-03-12T10:42:35Z">
+		<groups>
+			<group name="UT">
+				<method signature="github.com.balakumar28-go-testng-report-properties.TestLoadProperties_MissingFile" name="TestLoadProperties_MissingFile" class="github.com.balakumar28-go-testng-report-properties"></method>
+				<method signature="github.com.balakumar28-go-testng-report-properties.TestLoadProperties_CorruptedPropFile" name="TestLoadProperties_CorruptedPropFile" class="github.com.balakumar28-go-testng-report-properties"></method>
+				<method signature="github.com.balakumar28-go-testng-report-properties.TestLoadProperties_ValidFile" name="TestLoadProperties_ValidFile" class="github.com.balakumar28-go-testng-report-properties"></method>
+				<method signature="github.com.balakumar28-go-testng-report-properties.TestLoadProperties_ValidFile_WithReference" name="TestLoadProperties_ValidFile_WithReference" class="github.com.balakumar28-go-testng-report-properties"></method>
+				<method signature="github.com.balakumar28-go-testng-report-properties.Test_updateProperty" name="Test_updateProperty" class="github.com.balakumar28-go-testng-report-properties"></method>
+			</group>
+		</groups>
+		<test name="golang test" duration-ms="-19798929" started-at="2022-03-12T10:42:34Z" finished-at="2022-03-12T10:42:35Z">
+			<class name="github.com.balakumar28-go-testng-report-properties">
+				<test-method status="PASS" signature="github.com.balakumar28-go-testng-report-properties.TestLoadProperties_MissingFile" name="TestLoadProperties_MissingFile" duration-ms="0" started-at="2022-03-12T10:42:35Z" finished-at="2022-03-12T10:42:35Z">
+					<reporter-output></reporter-output>
+				</test-method>
+				<test-method status="PASS" signature="github.com.balakumar28-go-testng-report-properties.TestLoadProperties_CorruptedPropFile" name="TestLoadProperties_CorruptedPropFile" duration-ms="0" started-at="2022-03-12T10:42:35Z" finished-at="2022-03-12T10:42:35Z">
+					<reporter-output></reporter-output>
+				</test-method>
+				<test-method status="PASS" signature="github.com.balakumar28-go-testng-report-properties.TestLoadProperties_ValidFile" name="TestLoadProperties_ValidFile" duration-ms="0" started-at="2022-03-12T10:42:35Z" finished-at="2022-03-12T10:42:35Z">
+					<reporter-output></reporter-output>
+				</test-method>
+				<test-method status="PASS" signature="github.com.balakumar28-go-testng-report-properties.TestLoadProperties_ValidFile_WithReference" name="TestLoadProperties_ValidFile_WithReference" duration-ms="0" started-at="2022-03-12T10:42:35Z" finished-at="2022-03-12T10:42:35Z">
+					<reporter-output></reporter-output>
+				</test-method>
+				<test-method status="PASS" signature="github.com.balakumar28-go-testng-report-properties.Test_updateProperty" name="Test_updateProperty" duration-ms="0" started-at="2022-03-12T10:42:35Z" finished-at="2022-03-12T10:42:35Z">
+					<reporter-output></reporter-output>
+				</test-method>
+			</class>
+		</test>
+	</suite>
+</testng-results>
