@@ -2,8 +2,8 @@ package testng
 
 import (
 	"encoding/xml"
-	"go-testng-report/json"
-	"go-testng-report/properties"
+	"github.com/balakumar28/go-testng-report/json"
+	"github.com/balakumar28/go-testng-report/properties"
 	"strings"
 )
 

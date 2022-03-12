@@ -3,10 +3,10 @@ package main
 import (
 	"encoding/xml"
 	"fmt"
-	"go-testng-report/json"
-	"go-testng-report/properties"
-	"go-testng-report/testng"
-	"go-testng-report/utils"
+	"github.com/balakumar28/go-testng-report/json"
+	"github.com/balakumar28/go-testng-report/properties"
+	"github.com/balakumar28/go-testng-report/testng"
+	"github.com/balakumar28/go-testng-report/utils"
 	"io/ioutil"
 	"time"
 )
